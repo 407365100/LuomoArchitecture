@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--1.时间、区域选择控件-->
+    <attr name="halfVisibleItemCount" format="integer" />
+    <attr name="itemTextSize" format="dimension" />
+    <attr name="itemMaximumWidthText" format="string" />
+    <attr name="itemTextColor" format="color" />
+    <attr name="textGradual" format="boolean" />
+    <attr name="dateType" format="integer" >
+        <enum name="YYYY_MM" value="1"/>
+        <enum name="YYYY_MM_DD" value="2"/>
+    </attr>
+    <attr name="selectedTextColor" format="color" />
+    <attr name="selectedTextSize" format="dimension" />
+    <attr name="currentItemPosition" format="integer" />
+    <attr name="itemWidthSpace" format="dimension" />
+    <attr name="itemHeightSpace" format="dimension" />
+    <attr name="zoomInSelectedItem" format="boolean" />
+    <attr name="wheelCyclic" format="boolean" />
+    <attr name="wheelCurtain" format="boolean" />
+    <attr name="wheelCurtainColor" format="color" />
+    <attr name="wheelCurtainBorder" format="boolean" />
+    <attr name="wheelCurtainBorderColor" format="color" />
+    <attr name="indicatorText" format="string" />
+    <attr name="indicatorTextSize" format="dimension" />
+    <attr name="indicatorTextColor" format="color" />
+    <declare-styleable name="WheelPicker">
+        <attr name="halfVisibleItemCount" />
+        <attr name="itemTextSize" />
+        <attr name="itemMaximumWidthText" />
+        <attr name="itemTextColor" />
+        <attr name="textGradual" />
+        <attr name="selectedTextColor" />
+        <attr name="selectedTextSize" />
+        <attr name="currentItemPosition" />
+        <attr name="itemWidthSpace" />
+        <attr name="itemHeightSpace" />
+        <attr name="zoomInSelectedItem" />
+        <attr name="wheelCyclic" />
+        <attr name="wheelCurtain" />
+        <attr name="wheelCurtainColor" />
+        <attr name="wheelCurtainBorder" />
+        <attr name="wheelCurtainBorderColor" />
+        <attr name="indicatorText" />
+        <attr name="indicatorTextSize" />
+        <attr name="indicatorTextColor" />
+    </declare-styleable>
+
+    <declare-styleable name="YearPicker">
+        <attr name="startYear" format="integer" />
+        <attr name="endYear" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MonthPicker"></declare-styleable>
+
+    <declare-styleable name="DatePicker">
+        <attr name="halfVisibleItemCount" />
+        <attr name="itemTextSize" />
+        <attr name="dateType" />
+        <attr name="itemTextColor" />
+        <attr name="textGradual" />
+        <attr name="selectedTextColor" />
+        <attr name="selectedTextSize" />
+        <attr name="itemWidthSpace" />
+        <attr name="itemHeightSpace" />
+        <attr name="zoomInSelectedItem" />
+        <attr name="wheelCyclic" />
+        <attr name="wheelCurtain" />
+        <attr name="wheelCurtainColor" />
+        <attr name="wheelCurtainBorder" />
+        <attr name="wheelCurtainBorderColor" />
+    </declare-styleable>
+
+    <declare-styleable name="HourAndMinutePicker">
+        <attr name="halfVisibleItemCount" />
+        <attr name="itemTextSize" />
+        <attr name="itemTextColor" />
+        <attr name="textGradual" />
+        <attr name="selectedTextColor" />
+        <attr name="selectedTextSize" />
+        <attr name="itemWidthSpace" />
+        <attr name="itemHeightSpace" />
+        <attr name="zoomInSelectedItem" />
+        <attr name="wheelCyclic" />
+        <attr name="wheelCurtain" />
+        <attr name="wheelCurtainColor" />
+        <attr name="wheelCurtainBorder" />
+        <attr name="wheelCurtainBorderColor" />
+    </declare-styleable>
+    <!--2.ArcProgressStackView控件使用-->
+    <declare-styleable name="ArcProgressStackView">
+        <attr name="apsv_animated" format="boolean"/>
+        <attr name="apsv_shadowed" format="boolean"/>
+        <attr name="apsv_rounded" format="boolean"/>
+        <attr name="apsv_dragged" format="boolean"/>
+        <attr name="apsv_leveled" format="boolean"/>
+
+        <attr name="apsv_typeface" format="string"/>
+        <attr name="apsv_text_color" format="color"/>
+
+        <attr name="apsv_shadow_distance" format="dimension"/>
+        <attr name="apsv_shadow_angle" format="integer"/>
+        <attr name="apsv_shadow_radius" format="dimension"/>
+        <attr name="apsv_shadow_color" format="color"/>
+
+        <attr name="apsv_animation_duration" format="integer"/>
+        <attr name="apsv_interpolator" format="reference"/>
+
+        <attr name="apsv_draw_width" format="fraction|dimension"/>
+        <attr name="apsv_model_offset" format="dimension"/>
+        <attr name="apsv_model_bg_enabled" format="boolean"/>
+        <attr name="apsv_show_progress" format="boolean"/>
+
+        <attr name="apsv_start_angle" format="integer"/>
+        <attr name="apsv_sweep_angle" format="integer"/>
+        <attr name="apsv_indicator_orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+
+        <attr name="apsv_preview_colors" format="reference"/>
+        <attr name="apsv_preview_bg" format="color"/>
+    </declare-styleable>
+</resources>

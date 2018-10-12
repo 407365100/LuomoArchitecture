@@ -25,6 +25,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        //引入引导层包
+        maven { url 'https://jitpack.io' }
     }
 }
 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">@color/color_00000000</color>
+    <color name="split_view_bg">@color/color_88d3d3d3</color>
+
+    <!--标题栏相关色值-->
+    <color name="title_center_text_color">@color/color_282828</color>
+    <color name="title_bg">@color/color_ffffff</color>
+    <color name="layout_bg_ff">@color/color_ffffff</color>
+    <color name="layout_bg_f5">@color/color_f5f5f5</color>
+    <color name="title_split_bg">@color/color_25a3e6</color>
+    <color name="title_layout_bg">@color/color_ffffff</color>
+    <color name="title_layout_bg_pressed">@color/color_f0f0f0</color>
+
+    <color name="status_bar_color_default">@color/color_6182fd</color>
+    <color name="tab_selected">@color/color_ffffff</color>
+    <color name="tab_no_select">@color/color_c9c9c9</color>
+
+    <!--区域，日期选择器相关色值-->
+    <color name="lib_base_datepicker_selectedTextColor">@color/color_222222</color>
+    <color name="lib_base_datepicker_divider">@color/color_cccccc</color>
+
+    <color name="color_00000000">#00000000</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_0068f9">#0068f9</color>
+    <color name="color_222222">#222</color>
+    <color name="color_25a3e6">#25a3e6</color>
+    <color name="color_282828">#282828</color>
+    <color name="color_3388ff">#3388ff</color>
+    <color name="color_3cb3f7">#3cb3f7</color>
+    <color name="color_368aff">#368aff</color>
+    <color name="color_4291ff">#4291ff</color>
+    <color name="color_5da49f">#5da49f</color>
+    <color name="color_6182fd">#6182fd</color>
+    <color name="color_64ffa50a">#64ffa50a</color>
+    <color name="color_6bbeb8">#6bbeb8</color>
+    <color name="color_88d3d3d3">#88d3d3d3</color>
+    <color name="color_9b9b9b">#9b9b9b</color>
+
+    <color name="color_adadad">#adadad</color>
+    <color name="color_af4444">#af4444</color>
+    <color name="color_c9c9c9">#c9c9c9</color>
+    <color name="color_cccccc">#ccc</color>
+    <color name="color_cecece">#cecece</color>
+    <color name="color_d00218">#d00218</color>
+    <color name="color_dddddd">#ddd</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_f63b56">#f63b56</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_f98411">#f98411</color>
+    <color name="color_fafbfc">#fafbfc</color>
+    <color name="color_ff8728">#ff8728</color>
+    <color name="color_ffa50a">#ffa50a</color>
+    <color name="color_ffeee1">#ffeee1</color>
+    <color name="color_ffee02">#ffee02</color>
+    <color name="color_ffffff">#fff</color>
+
+</resources>

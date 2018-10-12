@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="45dp">
+        <Button
+                android:id="@+id/bt_cancel"
+                android:background="#f3f3f3"
+                android:text="@string/lib_base_datepicker_cancel"
+                android:textSize="15sp"
+                android:textColor="@color/lib_base_datepicker_selectedTextColor"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        <View
+                android:background="#eee"
+                android:layout_width="1dp"
+                android:layout_height="match_parent" />
+        <Button
+                android:id="@+id/bt_confirm"
+                android:background="#f3f3f3"
+                android:textSize="15sp"
+                android:text="@string/lib_base_datepicker_decide"
+                android:textColor="@color/lib_base_datepicker_selectedTextColor"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.ycuwq.regionpicker.RegionPicker
+            android:id="@+id/rp_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

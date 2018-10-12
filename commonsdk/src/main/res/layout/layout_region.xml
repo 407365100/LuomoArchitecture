@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#f7f7f7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.ezhantu.library_base.widget.pick.regionpicker.ProvincePicker
+        android:id="@+id/pp_province"
+        app:halfVisibleItemCount="2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.ezhantu.library_base.widget.pick.regionpicker.CityPicker
+        android:id="@+id/cp_city"
+        app:halfVisibleItemCount="2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

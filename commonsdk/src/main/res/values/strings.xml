@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">CommonSDK</string>
+    <!--日期区域选择-->
+    <string name="lib_base_datepicker_cancel">取消</string>
+    <string name="lib_base_datepicker_decide">确定</string>
+    <string name="lib_base_datepicker_hour">时</string>
+    <string name="lib_base_datepicker_minute">分</string>
+    <string name="lib_base_loading">加载中…</string>
+    <string name="lib_base_requesting">请求中…</string>
+    <!--外置存储的项目名，如日志文件，版本更新下载的应用-->
+    <string name="lib_base_project_path_directory">luomo</string>
+
 </resources>
