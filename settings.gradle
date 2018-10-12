@@ -1,1 +1,1 @@
-include ':app', ':commonsdk', ':commonres', ':library-bgabanner' ,':library-guide' ,':library-permission'
+include ':app', ':commonsdk', ':commonres'

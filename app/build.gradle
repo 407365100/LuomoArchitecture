@@ -44,7 +44,6 @@ android {
             //signingConfig signingConfigs.release//5.1打包命令行：gradlew assembleRelease，配合4使用
         }
     }
-    buildToolsVersion '27.0.1'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -58,6 +57,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation project(':commonres')
+    implementation project(':commonsdk')
 }
 configurations.all {
     //解决"Conflict with dependency 'com.android.supportsupport-annotations' in project 'app'"

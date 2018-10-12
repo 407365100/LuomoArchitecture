@@ -11,9 +11,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonres" />
             <option value="$PROJECT_DIR$/commonsdk" />
-            <option value="$PROJECT_DIR$/library-bgabanner" />
-            <option value="$PROJECT_DIR$/library-guide" />
-            <option value="$PROJECT_DIR$/library-permission" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
