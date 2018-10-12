@@ -1,19 +1,47 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
-        applicationId "com.luomo.luomoarchitecture"
-        minSdkVersion 19
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        applicationId "com.ezhantu.transportcompany"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    //1.指定so库文件路径
+    sourceSets.main.jniLibs.srcDirs = ['src/main/libs']
+    //2.开启dataBinding支持
+    dataBinding {
+        enabled = true
+    }
+    //3.设置打包文件名称
+    /*applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                // 智慧车队-versionName-versionCode-编译时间.apk
+                def fileName = "E车队_code${defaultConfig.versionCode}_v${defaultConfig.versionName}_release_${releaseTime()}.apk"
+                if (variant.buildType.isDebuggable()) {
+                    fileName = "E车队_code${defaultConfig.versionCode}_v${defaultConfig.versionName}_debug_${releaseTime()}.apk"
+                }
+                //output.outputFile = new File(output.outputFile.parent, fileName)
+                //as3.0以后，通过此方式设置，同时修改each为all
+                outputFileName = fileName
+            }
+        }
+    }*/
+    //4.添加lint不报错，解决jenkins打包因为lint出问题
+    lintOptions {
+        abortOnError false
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.release//5.1打包命令行：gradlew assembleRelease，配合4使用
         }
     }
     buildToolsVersion '27.0.1'
@@ -25,7 +53,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:27.0.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
@@ -33,5 +61,8 @@ dependencies {
 }
 configurations.all {
     //解决"Conflict with dependency 'com.android.supportsupport-annotations' in project 'app'"
-    resolutionStrategy.force 'com.android.support:support-annotations:27.0.1'
+    resolutionStrategy.force 'com.android.support:support-annotations:26.1.0'
+}
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
 }
