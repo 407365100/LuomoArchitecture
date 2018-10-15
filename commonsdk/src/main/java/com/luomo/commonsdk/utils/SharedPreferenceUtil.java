@@ -5,7 +5,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import com.luomo.library_base.common.SharedPreferenceParam;
+import com.luomo.commonsdk.SharedPreferenceParam;
+
 
 public class SharedPreferenceUtil {
     /**

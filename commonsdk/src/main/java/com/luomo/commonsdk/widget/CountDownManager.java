@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 
+import com.luomo.commonsdk.base.BaseClass;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -14,8 +16,7 @@ import java.util.TimerTask;
  * @date :2018/6/6 14:47
  * @description:倒计时工具
  */
-public class CountDownManager {
-    private String TAG = getClass().getSimpleName();
+public class CountDownManager extends BaseClass{
     private static CountDownManager countDownManager = null;
     private static Context mContext;
 

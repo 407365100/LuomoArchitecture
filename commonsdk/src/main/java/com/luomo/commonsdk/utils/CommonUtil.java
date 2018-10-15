@@ -98,7 +98,7 @@ public class CommonUtil {
      * @param c
      * @param mailAdress
      */
-    public static void mailContact(Context c, String mailAdress) {
+    public static void sendEmail(Context c, String mailAdress) {
         Uri uri = Uri.parse("mailto:" + mailAdress);
         Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
         //intent.putExtra(Intent.EXTRA_CC, email); // 抄送人

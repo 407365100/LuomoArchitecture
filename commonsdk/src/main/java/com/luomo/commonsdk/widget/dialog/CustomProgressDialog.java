@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.ezhantu.library_base.R;
+import com.luomo.commonsdk.R;
+
 
 /**
  * @author :renpan

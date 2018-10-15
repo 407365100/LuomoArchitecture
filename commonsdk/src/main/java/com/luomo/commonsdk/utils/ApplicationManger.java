@@ -84,7 +84,7 @@ public class ApplicationManger {
     /**
      * 退出app
      */
-    public void finishAllActivity() {
+    private void finishAllActivity() {
         Iterator<Map.Entry<String, ArrayList<BaseActivity>>> iterator = mBufferActivity.entrySet().iterator();
         while (iterator.hasNext()) {
             ArrayList<BaseActivity> activities = iterator.next().getValue();

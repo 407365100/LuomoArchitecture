@@ -1,10 +1,11 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
+apply from: "config.gradle"
 buildscript {
     
     repositories {
         google()
         jcenter()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
@@ -34,19 +35,3 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-ext{
-    //app
-    versionCode = 7;
-    versionName = "1.0.6"
-    //library-guide，用户引导库
-    libraryGuideVersionCode = 1;
-    libraryGuideVersionName = "1.0"
-    // 公共版本号
-    compileSdkVersion = 26
-    buildToolsVersion = "26.0.2"
-    minSdkVersion = 19
-    targetSdkVersion = 26
-    supportLibraryVersion = "26.1.0"
-    androidTestCompileVersion = "2.2.2"
-    junitVersion = "4.12"
-}

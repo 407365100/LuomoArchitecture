@@ -14,10 +14,10 @@ import java.util.Date;
  * @description:
  */
 public class DateUtil {
-    public static final String PATTERN_MONTH_M_YYYY = "M/yyyy";
-    public static final String PATTERN_MONTH_YYYY_MM = "yyyyMM";
-    public static final String PATTERN_DAY_M_D = "M月d日";
-    public static final String PATTERN_DAY_YYYYMMDD = "yyyyMMdd";
+    public static final String PATTERN_M_BACKSLASH_yyyy = "M/yyyy";
+    public static final String PATTERN_yyyy_MM = "yyyyMM";
+    public static final String PATTERN_M_MONTH_d_DAY = "M月d日";
+    public static final String PATTERN_yyyyMMdd = "yyyyMMdd";
     public static final String PATTERN_YYYYMMDD_HHMMSS_S = "yyyy-MM-dd HH:mm:ss.S";
     public static final String PATTERN_YYYYMMDD_HHMMSS = "yyyy-MM-dd HH:mm:ss";
     public static final String PATTERN_YYYYMMDD_HHMM = "yyyy-MM-dd HH:mm";
