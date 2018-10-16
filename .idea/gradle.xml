@@ -11,7 +11,9 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonres" />
             <option value="$PROJECT_DIR$/commonsdk" />
+            <option value="$PROJECT_DIR$/commonservice" />
             <option value="$PROJECT_DIR$/library-volley" />
+            <option value="$PROJECT_DIR$/module-setting" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
