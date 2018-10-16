@@ -9,7 +9,8 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.luomo.library_base.R;
+
+import com.luomo.commonsdk.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

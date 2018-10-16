@@ -1,5 +1,9 @@
 package com.luomo.commonsdk;
 
+import android.os.Environment;
+
+import java.io.File;
+
 /*******************************************
  * @COMPANY:落寞
  * @author :renpan
@@ -23,4 +27,22 @@ public interface Constants {
      * default string value
      */
     public static final String DEFAULT_STRING_NULL = "";
+
+
+    /**
+     * 应用的缓存信息存储路径
+     */
+    public final static String PATH_DIRECTORY = Environment.getExternalStorageDirectory().getPath() + File.separator +"ezhantu";
+    /**
+     * 日志输出路径
+     */
+    public final static String PATH_DIRECTORY_LOG = PATH_DIRECTORY + File.separator + "log";
+    /**
+     * apk下载路径
+     */
+    public final static String PATH_DIRECTORY_APK = PATH_DIRECTORY + File.separator + "apk";
+    /**
+     * 图片缓存输出路径
+     */
+    public final static String PATH_DIRECTORY_IMAGE = PATH_DIRECTORY + File.separator + "imageLoader"+ File.separator+"Cache";
 }

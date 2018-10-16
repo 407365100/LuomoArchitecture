@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
+import com.luomo.commonsdk.R;
 import com.luomo.commonsdk.utils.KeyboardUtil;
 
 import static android.graphics.Paint.ANTI_ALIAS_FLAG;

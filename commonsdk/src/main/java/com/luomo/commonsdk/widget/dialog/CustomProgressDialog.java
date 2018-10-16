@@ -12,7 +12,7 @@ import com.luomo.commonsdk.R;
 /**
  * @author :renpan
  * @version :v1.0
- * @class :com.ezhantu.library_base.widget.dialog
+ * @class :com.luomo.commonsdk.widget.dialog
  * @date :2018/6/5 10:59
  * @description:
  */

@@ -5,7 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Environment;
 
-import com.ezhantu.library_base.widget.pick.regionpicker.domain.RegionDomain;
+import com.luomo.commonsdk.widget.pick.regionpicker.domain.RegionDomain;
 
 import java.io.File;
 import java.io.FileOutputStream;

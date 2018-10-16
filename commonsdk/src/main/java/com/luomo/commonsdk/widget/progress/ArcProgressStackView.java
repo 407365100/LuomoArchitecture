@@ -45,7 +45,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
-import com.ezhantu.library_base.R;
+import com.luomo.commonsdk.R;
 
 import java.util.ArrayList;
 import java.util.List;

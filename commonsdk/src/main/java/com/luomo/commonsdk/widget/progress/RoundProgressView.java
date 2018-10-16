@@ -3,7 +3,7 @@ package com.luomo.commonsdk.widget.progress;
 /**
  * @author :renpan
  * @version :v1.0
- * @class :com.ezhantu.library_base.widget
+ * @class :com.luomo.commonsdk.widget
  * @date :2018/6/5 14:29
  * @description:
  */

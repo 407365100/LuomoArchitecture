@@ -7,7 +7,7 @@ import android.os.Bundle;
 /**
  * @author :renpan
  * @version :v1.0
- * @class :com.ezhantu.library_base.widget.interfacewrap
+ * @class :com.luomo.commonsdk.widget.interfacewrap
  * @date :2018/5/29 10:20
  * @description:
  */

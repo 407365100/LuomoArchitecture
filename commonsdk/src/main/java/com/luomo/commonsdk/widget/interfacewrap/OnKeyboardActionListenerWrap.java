@@ -5,7 +5,7 @@ import android.inputmethodservice.KeyboardView;
 /**
  * @author :renpan
  * @version :v1.0
- * @class :com.ezhantu.library_base.widget.interfacewrap
+ * @class :com.luomo.commonsdk.widget.interfacewrap
  * @date :2018/6/12 9:04
  * @description:
  */

@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.ezhantu.library_base.R;
+import com.luomo.commonsdk.R;
 
 
 /**

@@ -20,9 +20,9 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.Scroller;
 
-import com.ezhantu.library_base.R;
-import com.ezhantu.library_base.widget.pick.datepicker.util.LinearGradient;
-import com.ezhantu.library_base.widget.pick.regionpicker.domain.RegionDomain;
+import com.luomo.commonsdk.R;
+import com.luomo.commonsdk.widget.pick.datepicker.util.LinearGradient;
+import com.luomo.commonsdk.widget.pick.regionpicker.domain.RegionDomain;
 
 import java.text.Format;
 import java.util.ArrayList;

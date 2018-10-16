@@ -13,7 +13,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.ezhantu.library_base.R;
+import com.luomo.commonsdk.R;
 
 
 /**

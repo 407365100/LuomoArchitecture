@@ -11,8 +11,8 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 
-import com.ezhantu.library_base.R;
-import com.ezhantu.library_base.widget.pick.regionpicker.domain.RegionDomain;
+import com.luomo.commonsdk.R;
+import com.luomo.commonsdk.widget.pick.regionpicker.domain.RegionDomain;
 
 import java.util.List;
 

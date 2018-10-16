@@ -13,7 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.ezhantu.library_base.R;
+import com.luomo.commonsdk.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

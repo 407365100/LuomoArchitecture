@@ -8,7 +8,7 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.ezhantu.library_base.LibBaseConstants;
+import com.luomo.commonsdk.Constants;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -101,7 +101,7 @@ public class CrashHandler implements UncaughtExceptionHandler {
 				Looper.prepare();
 				Toast.makeText(mContext, "安全应用出现未知错误（环境异常）", Toast.LENGTH_LONG).show();
 				String fileName = expTime + ".txt";
-				File file = new File(LibBaseConstants.PATH_DIRECTORY_LOG, fileName);
+				File file = new File(Constants.PATH_DIRECTORY_LOG, fileName);
 				// 如果文件夹不存在，则创建
 				if (!file.getParentFile().exists()) {
 					file.getParentFile().mkdirs();

@@ -12,7 +12,7 @@ import java.util.TimerTask;
 /**
  * @author :renpan
  * @version :v1.0
- * @class :com.ezhantu.library_base.utils
+ * @class :com.luomo.commonsdk.utils
  * @date :2018/6/6 14:47
  * @description:倒计时工具
  */

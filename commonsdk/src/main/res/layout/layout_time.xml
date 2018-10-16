@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.ezhantu.library_base.widget.pick.datepicker.time.HourPicker
+    <com.luomo.commonsdk.widget.pick.datepicker.time.HourPicker
         android:id="@+id/hourPicker_layout_time"
         app:halfVisibleItemCount="2"
         app:indicatorText="@string/lib_base_datepicker_hour"
@@ -15,7 +15,7 @@
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content" />
-    <com.ezhantu.library_base.widget.pick.datepicker.time.MinutePicker
+    <com.luomo.commonsdk.widget.pick.datepicker.time.MinutePicker
         android:id="@+id/minutePicker_layout_time"
         app:wheelCyclic="true"
         app:indicatorText="@string/lib_base_datepicker_minute"
