@@ -21,7 +21,7 @@ public class CustomProgressDialog extends ProgressDialog {
     public static final int TYPE_REQUESTING = 2;
     int type = TYPE_LOADING;
     public CustomProgressDialog(Context context) {
-        super(context, R.style.lib_base_CustomProgressDialog);
+        super(context, R.style.CustomProgressDialog);
     }
 
     public CustomProgressDialog(Context context, int type) {

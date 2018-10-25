@@ -56,7 +56,7 @@ public class CustomDialog extends Dialog {
      * @param gravity dialog所在的位置 如Gravity.Bottom
      */
     public CustomDialog(Context context, int layoutId, ICustomDialog inflateData, float widthScale, float heightScale, int gravity) {
-        super(context, R.style.lib_base_Dialog);
+        super(context, R.style.Dialog);
         this.context = context;
         this.inflateData = inflateData;
         this.widthScale = widthScale;

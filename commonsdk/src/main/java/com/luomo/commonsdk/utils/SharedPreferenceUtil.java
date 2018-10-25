@@ -5,8 +5,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import com.luomo.commonsdk.SharedPreferenceParam;
-
 
 public class SharedPreferenceUtil {
     /**
@@ -15,73 +13,9 @@ public class SharedPreferenceUtil {
     private static String SP_BASE = "sp_base";
 
     public static void clear(Context context){
-        //1.保留全局的配置
-        boolean guideStatus = getBaseBoolean(context, SharedPreferenceParam.PARAM_GUIDE_STATUS);//用户引导页
-        //2.清空其他配置信息
+        //清空其他配置信息
         SharedPreferences sp = context.getSharedPreferences(SP_BASE, Activity.MODE_PRIVATE);
         sp.edit().clear().commit();
-        //3.还原系统配置
-        putBaseBoolean(context, SharedPreferenceParam.PARAM_GUIDE_STATUS, guideStatus);
-    }
-
-    public static String getBaseString(Context context, String name) {
-        return getBaseString(context, name, StringUtil.nul);
-    }
-
-    public static String getBaseString(Context context, String name, String defaultValue) {
-        return getString(context, SP_BASE, name, StringUtil.nul);
-    }
-
-    public static int getBaseInt(Context context, String name) {
-        return getBaseInt(context, name, 0);
-    }
-
-    public static int getBaseInt(Context context, String name, int defaultValue) {
-        return getInt(context, SP_BASE, name, defaultValue);
-    }
-
-    public static float getBaseFloat(Context context, String name) {
-        return getBaseFloat(context, name, 0);
-    }
-
-    public static float getBaseFloat(Context context, String name, int defaultValue) {
-        return getFloat(context, SP_BASE, name, defaultValue);
-    }
-
-    public static long getBaseLong(Context context, String name) {
-        return getBaseLong(context, name, 0);
-    }
-
-    public static long getBaseLong(Context context, String name, int defaultValue) {
-        return getLong(context, SP_BASE, name, defaultValue);
-    }
-
-    public static boolean getBaseBoolean(Context context, String name) {
-        return getBaseBoolean(context, name, false);
-    }
-
-    public static boolean getBaseBoolean(Context context, String name, boolean defaultValue) {
-        return getBoolean(context, SP_BASE, name, defaultValue);
-    }
-
-    public static void putBaseString(Context context, String name, String value) {
-        putString(context, SP_BASE, name, value);
-    }
-
-    public static void putBasesInt(Context context, String name, int value) {
-        putInt(context, SP_BASE, name, value);
-    }
-
-    public static void putBasesFloat(Context context, String name, float value) {
-        putFloat(context, SP_BASE, name, value);
-    }
-
-    public static void putBaseBoolean(Context context, String name, boolean value) {
-        putBoolean(context, SP_BASE, name, value);
-    }
-
-    public static void putBaseLong(Context context, String name, long value) {
-        putLong(context, SP_BASE, name, value);
     }
 
     /**********基本操作*********/
