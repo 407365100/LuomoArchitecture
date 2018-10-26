@@ -12,7 +12,13 @@ import android.widget.Toast;
 
 import com.luomo.commonsdk.R;
 
-
+/*******************************************
+ * @company:自由开发者
+ * @author :renpan
+ * @version :v1.0
+ * @date :2018-10-26 9:36
+ * @description:
+ *******************************************/
 public class ToastUtil {
 	 /** 上下文. */
     private static Context mContext = null;

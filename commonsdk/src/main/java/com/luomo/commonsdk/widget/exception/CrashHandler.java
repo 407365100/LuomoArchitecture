@@ -8,7 +8,7 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.luomo.commonsdk.Constants;
+import com.luomo.base.Constants;
 
 import java.io.File;
 import java.io.FileOutputStream;

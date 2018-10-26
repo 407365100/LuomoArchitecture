@@ -4,8 +4,7 @@ import android.Manifest;
 import android.support.annotation.NonNull;
 import android.os.Bundle;
 
-import com.luomo.commonsdk.Constants;
-import com.luomo.commonsdk.base.BaseActivity;
+import com.luomo.base.base.BaseActivity;
 import com.yanzhenjie.permission.AndPermission;
 import com.yanzhenjie.permission.PermissionListener;
 import com.yanzhenjie.permission.Rationale;

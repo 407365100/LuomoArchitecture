@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/commonres/commonres.iml" filepath="$PROJECT_DIR$/commonres/commonres.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonsdk/commonsdk.iml" filepath="$PROJECT_DIR$/commonsdk/commonsdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonservice/commonservice.iml" filepath="$PROJECT_DIR$/commonservice/commonservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdLibrarys/library-base/library-base.iml" filepath="$PROJECT_DIR$/ThirdLibrarys/library-base/library-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThirdLibrarys/library-volley/library-volley.iml" filepath="$PROJECT_DIR$/ThirdLibrarys/library-volley/library-volley.iml" />
       <module fileurl="file://$PROJECT_DIR$/module-setting/module-setting.iml" filepath="$PROJECT_DIR$/module-setting/module-setting.iml" />
     </modules>

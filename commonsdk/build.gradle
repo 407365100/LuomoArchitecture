@@ -47,4 +47,5 @@ dependencies {
     androidTestImplementation rootProject.ext.dependencies["espresso-core"]
     androidTestImplementation rootProject.ext.dependencies["espresso-contrib"]
     androidTestImplementation rootProject.ext.dependencies["espresso-intents"]
+    compile project(path: ':ThirdLibrarys:library-base')
 }

@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation rootProject.ext.dependencies["gson"]
     implementation rootProject.ext.dependencies["appcompat-v7"]
     implementation rootProject.ext.dependencies["support-v4"]
     testImplementation rootProject.ext.dependencies["junit"]
@@ -38,4 +39,5 @@ dependencies {
     androidTestImplementation rootProject.ext.dependencies["espresso-core"]
     androidTestImplementation rootProject.ext.dependencies["espresso-contrib"]
     androidTestImplementation rootProject.ext.dependencies["espresso-intents"]
+    implementation project(':ThirdLibrarys:library-base')
 }

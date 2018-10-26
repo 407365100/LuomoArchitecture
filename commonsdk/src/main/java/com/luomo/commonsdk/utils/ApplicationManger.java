@@ -6,7 +6,7 @@ import android.content.Context;
 import android.os.Bundle;
 
 
-import com.luomo.commonsdk.base.BaseActivity;
+import com.luomo.base.base.BaseActivity;
 import com.luomo.commonsdk.widget.interfacewrap.ActivityLifecycleCallbacksWrap;
 
 import java.util.ArrayList;

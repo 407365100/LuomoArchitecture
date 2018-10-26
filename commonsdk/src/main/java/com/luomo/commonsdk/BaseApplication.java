@@ -3,11 +3,10 @@ package com.luomo.commonsdk;
 import android.app.Application;
 
 /*******************************************
- * @COMPANY:落寞
+ * @company:自由开发者
  * @author :renpan
  * @version :v1.0
- * @class :${PACKAGE_NAME}
- * @date :${DATE} ${TIME}
+ * @date :2018-10-26 9:32
  * @description:
  *******************************************/
 public class BaseApplication extends Application {

@@ -47,8 +47,8 @@ group = 'com.android.volley'
 version = '1.2.0-SNAPSHOT'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion = '26.0.2'
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
 }
 
 tasks.withType(JavaCompile) {
