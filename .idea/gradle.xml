@@ -8,11 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ThirdLibrarys" />
+            <option value="$PROJECT_DIR$/ThirdLibrarys/library-volley" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonres" />
             <option value="$PROJECT_DIR$/commonsdk" />
             <option value="$PROJECT_DIR$/commonservice" />
-            <option value="$PROJECT_DIR$/library-volley" />
             <option value="$PROJECT_DIR$/module-setting" />
           </set>
         </option>
