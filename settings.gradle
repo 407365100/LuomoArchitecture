@@ -1,1 +1,1 @@
-include ':app', ':commonsdk', ':commonres', ':library-volley', ':commonservice', ':module-setting'
+include ':app', ':commonsdk', ':commonres',  ':commonservice', ':module-setting',':library-volley'
