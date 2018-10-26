@@ -3,14 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LuomoArchitecture-master.iml" filepath="$PROJECT_DIR$/LuomoArchitecture-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThirdLibrarys/ThirdLibrarys.iml" filepath="$PROJECT_DIR$/ThirdLibrarys/ThirdLibrarys.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonres/commonres.iml" filepath="$PROJECT_DIR$/commonres/commonres.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonsdk/commonsdk.iml" filepath="$PROJECT_DIR$/commonsdk/commonsdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonservice/commonservice.iml" filepath="$PROJECT_DIR$/commonservice/commonservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThirdLibrarys/library-base/library-base.iml" filepath="$PROJECT_DIR$/ThirdLibrarys/library-base/library-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThirdLibrarys/library-volley/library-volley.iml" filepath="$PROJECT_DIR$/ThirdLibrarys/library-volley/library-volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thirdlibrarys/library-base/library-base.iml" filepath="$PROJECT_DIR$/thirdlibrarys/library-base/library-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thirdlibrarys/library-volley/library-volley.iml" filepath="$PROJECT_DIR$/thirdlibrarys/library-volley/library-volley.iml" />
       <module fileurl="file://$PROJECT_DIR$/module-setting/module-setting.iml" filepath="$PROJECT_DIR$/module-setting/module-setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thirdlibrarys/thirdlibrarys.iml" filepath="$PROJECT_DIR$/thirdlibrarys/thirdlibrarys.iml" />
     </modules>
   </component>
 </project>

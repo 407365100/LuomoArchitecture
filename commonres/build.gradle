@@ -39,5 +39,5 @@ dependencies {
     androidTestImplementation rootProject.ext.dependencies["espresso-core"]
     androidTestImplementation rootProject.ext.dependencies["espresso-contrib"]
     androidTestImplementation rootProject.ext.dependencies["espresso-intents"]
-    implementation project(':ThirdLibrarys:library-base')
+    implementation project(':thirdlibrarys:library-base')
 }
